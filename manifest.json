@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2, 
+    "name": "GeoTab",
+    "version": "0.1.8",
+    "description": "Entertaining and informative extension that helps to consolidate the knowledges in Georgraphy.",
+    "icons": {
+        "16": "photos/geotab_icon.png",
+        "48": "photos/geotab_icon.png",
+        "128": "photos/geotab_icon.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Eat. Sleep. Learn. Repeat."
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["script.js"],
+            "css": ["style.css"]
+        }
+    ],
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab",
+        "<all_urls>"
+    ],
+
+    "content_security_policy":"script-src 'self' https://apis.google.com; object-src 'self'"
+}

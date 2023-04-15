@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <div style="width:300px"></div>
+    <div style="height:200px"></div>
+    <a href="popup.html" id="BackFlags" class="tabs" type="button" data-msgname="homepage">Back</a>
+    <link rel="stylesheet" href="flags.css">
+    <div id="divImage"></div>
+    <script src="script.js"></script>
+
+<body>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div id="hud">
+                <div class="hud-item">
+                    <p id="progressText" class="hud-prefix">
+                        Question
+                    </p>
+                    <div id="progressBar">
+                        <div id="progressBarFull"></div>
+                    </div>
+                </div>
+                <div class="hud-item">
+                    <p class="hud-prefix">
+                        Score
+                    </p>
+                    <h1 class="hud-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+
+            <div id="image"></div>
+            <h1 id="question">Whose flag is it?</h1>
+
+            <div class="choice-container">
+                <p class="choice-prefix"> </p>
+                <button class="choice-text" data-number="1" id="first">Choice 1</button>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"> </p>
+                <button class="choice-text" data-number="2" id="second">Choice 2</button>
+            </div>
+            <div class="choice-container">
+                <p class="choice-prefix"> </p>
+                <button class="choice-text" data-number="3" id="third">Choice 3</button>
+            </div>
+        </div>
+    </div>
+    <script src="flags.js"></script>
+</body>
+</head>
+</html>
