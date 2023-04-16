@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <div style="width:300px"></div>
-    <div style="height:200px"></div>
-    <a href="popup.html" id="BackFlags" class="tabs" type="button" data-msgname="homepage">Back</a>
     <link rel="stylesheet" href="flags.css">
     <div id="divImage"></div>
     <script src="script.js"></script>
-
+    <div style="width:300px"></div>
+    <div style="height:200px"></div>
+<head>
 <body>
     <div class="container">
         <div id="game" class="justify-center flex-column">
             <div id="hud">
+                <div class="row">
+                    <div class="BackButton">
+                        <button>
+                            <a href="popup.html" id="BackFlags" class="tabs" type="button" data-msgname="homepage">
+                                <span class="transition"></span>
+                                <span class="gradient"></span>
+                                <span class="label">Back</span>
+                            </a>
+                        </button>
+                    </div>
+                </div>
                 <div class="hud-item">
                     <p id="progressText" class="hud-prefix">
                         Question
@@ -21,18 +29,16 @@
                         <div id="progressBarFull"></div>
                     </div>
                 </div>
+               
                 <div class="hud-item">
                     <p class="hud-prefix">
-                        Score
+                        Score <span class="hud-main-text" id="score">0</span>
                     </p>
-                    <h1 class="hud-main-text" id="score">
-                        0
-                    </h1>
                 </div>
             </div>
 
             <div id="image"></div>
-            <h1 id="question">Whose flag is it?</h1>
+            <h2 id="question">Whose flag is it?</h2>
 
             <div class="choice-container">
                 <p class="choice-prefix"> </p>

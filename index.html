@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <div style="width:300px"></div>
-  <title>Home page</title>
-  <!--<img src="photos/4420933.jpeg" alt="background" width="300px">-->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
-    integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" 
-    crossorigin="anonymous">
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-</head>
-
-<button>
-  <span class="transition"></span>
-  <span class="gradient"></span>
-  <span class="label">Checke33r</span>
-</button>
+  <head>
+    <meta charset="UTF-8">
+    <div style="width:300px"></div>
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
 <div class="container">
   <img src="photos/4420933.jpeg" alt="BackGround" style="width:100%;">
   <div class="centered-0">GeoTab</div>
   <div class="centered-1">
-    <a href="flags.html" class="tab" data-msgname="flags">Flags</a>
-    <!-- <span class="gradient"></span>
-    <span class="transition"></span>  -->
+    <button>
+      <a href="flags.html" class="tab" data-msgname="flags">
+        <span class="transition"></span>
+        <span class="gradient"></span>
+        <span class="label">Flags</span>
+      </a>
+    </button>
   </div>
   <div class="centered-2">
-    <a href="capitals.html" class="tab" data-msgname="capitals">Capitals</a>
+    <button>
+      <a href="capitals.html" class="tab" data-msgname="capitals">
+        <span class="transition"></span>
+        <span class="gradient"></span>
+        <span class="label">Capitals</span>
+      </a>
+    </button>
   </div>
   <div class="centered-3">
-    <a href="locations.html" class="tab" data-msgname="locations">Locations</a>
+    <button>
+      <a href="locations.html" class="tab" data-msgname="locations">
+        <span class="transition"></span>
+        <span class="gradient"></span>
+        <span class="label">Locations</span>
+      </a>
+    </button>
   </div>
-  <div class="centered-6">
-    <a href="openai.html" class="tab" data-msgname="openai">openai</a>
-  </div>
-  <div class="centered-4">
-    <div class="centered-5">Powered by N17R!</div>
-  </div>
+  <div class="centered-4">Powered by HackDartmouth!</div>
 </div>
 
 </body>
@@ -53,50 +52,50 @@
       text-align: center;
       color: white;
     }
-
+    /*GeoTab*/
     .centered-0 {
       position: absolute;
       top: 34%;
       left: 50%;
       transform: translate(-50%, -50%);
+      background-color: rgba(16, 185, 129, 0.6);
+      color: black;
+      font-size: 14px;
+      padding: 0em 0.3em;
+      font-weight: 200;
+      border: none;
+      overflow: hidden;
+      border-radius: 0.6em;
     }
-
+    /*Flags*/
     .centered-1 {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
-
+    /*Capitals*/
     .centered-2 {
       position: absolute;
       top: 60%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
-
+    /*Locations*/
     .centered-3 {
       position: absolute;
       top: 70%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
-
+    /*Powered by*/
     .centered-4 {
       position: absolute;
       top: 90%;
       left: 50%;
-      font-size: 7px;
-      transform: translate(-50%, -50%);
-    }
-
-    .centered-6 {
-      position: absolute;
-      top: 80%;
-      left: 50%;
+      font-size: 9px;
       transform: translate(-50%, -50%);
     }
   </style>
 </head>
-
 </html>

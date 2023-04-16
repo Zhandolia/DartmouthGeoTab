@@ -88,7 +88,7 @@ let questions = [
         image: "flags/ar.png",
         choice1: 'Botswana',
         choice2: 'Argentina',
-        choice3: 'Federated States of Micronesia',
+        choice3: 'Micronesia',
         answer: 2,
     },
     {      
@@ -126,7 +126,7 @@ let questions = [
     {      
         // AX / Åland Islands /
         image: "flags/ax.png",
-        choice1: 'Åland Islands',
+        choice1: 'Aland Islands',
         choice2: 'Norway',
         choice3: 'Bouvet Island',
         answer: 1,
@@ -1158,7 +1158,7 @@ let questions = [
         // MH / Marshall Islands /
         image: "flags/mh.png",
         choice1: 'Marshall Islands',
-        choice2: 'Russian Federation',
+        choice2: 'Russia',
         choice3: 'Rwanda',
         answer: 1,
     },
@@ -1535,7 +1535,7 @@ let questions = [
         image: "flags/ru.png",
         choice1: 'Slovakia',
         choice2: 'Slovenia',
-        choice3: 'Russian Federation',
+        choice3: 'Russia',
         answer: 3,
     },
     {    
@@ -1606,7 +1606,7 @@ let questions = [
         // SI / Slovenia /
         image: "flags/si.png",
         choice1: 'Slovakia',
-        choice2: 'Russian Federation',
+        choice2: 'Russia',
         choice3: 'Slovenia',
         answer: 3,
     },
@@ -1622,7 +1622,7 @@ let questions = [
         // SK / Slovakia /
         image: "flags/sk.png",
         choice1: 'Slovenia',
-        choice2: 'Russian Federation',
+        choice2: 'Russia',
         choice3: 'Slovakia',
         answer: 3,
     },
@@ -1678,7 +1678,7 @@ let questions = [
         // ST / Sao Tome and Príncipe /
         image: "flags/st.png",
         choice1: 'Venezuella',
-        choice2: 'United States of America',
+        choice2: 'the USA',
         choice3: 'Sao Tome and Príncipe',
         answer: 3,
     },
@@ -1735,7 +1735,7 @@ let questions = [
         image: "flags/tf.png",
         choice1: 'French Southern Territories',
         choice2: 'Bangladesh',
-        choice3: 'Russian Federation',
+        choice3: 'Russia',
         answer: 1,
     },
     {   
@@ -1869,7 +1869,7 @@ let questions = [
     {    
         // US / United States of America /
         image: "flags/us.png",
-        choice1: 'United States of America',
+        choice1: 'the USA',
         choice2: 'Finland',
         choice3: 'Iceland',
         answer: 1,
